@@ -12,6 +12,7 @@
 		E2FEB53E20FB8257006BA982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FEB53C20FB8257006BA982 /* Main.storyboard */; };
 		E2FEB54020FB8259006BA982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FEB53F20FB8259006BA982 /* Assets.xcassets */; };
 		E2FEB54320FB8259006BA982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FEB54120FB8259006BA982 /* LaunchScreen.storyboard */; };
+		E2FEB54E20FB9D5D006BA982 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = E2FEB54D20FB9D5D006BA982 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E2FEB53F20FB8259006BA982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FEB54220FB8259006BA982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2FEB54420FB8259006BA982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FEB54D20FB9D5D006BA982 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "../../../../pokeapi-master/data/v1/pokemon.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E2FEB53720FB8257006BA982 /* pokedex3 */ = {
 			isa = PBXGroup;
 			children = (
+				E2FEB54D20FB9D5D006BA982 /* pokemon.csv */,
 				E2FEB53820FB8257006BA982 /* AppDelegate.swift */,
 				E2FEB53A20FB8257006BA982 /* ViewController.swift */,
 				E2FEB53C20FB8257006BA982 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				E2FEB54320FB8259006BA982 /* LaunchScreen.storyboard in Resources */,
 				E2FEB54020FB8259006BA982 /* Assets.xcassets in Resources */,
+				E2FEB54E20FB9D5D006BA982 /* pokemon.csv in Resources */,
 				E2FEB53E20FB8257006BA982 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
